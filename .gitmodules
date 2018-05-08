@@ -1,0 +1,3 @@
+[submodule "webshot"]
+	path = webshot
+	url = https://github.com/wch/webshot
