@@ -23,7 +23,7 @@ offline.iplot(figure, show_link=False)
 
 Now you have to
 * download the PhantomJS binary from http://phantomjs.org/
-* clone this repo (`git clone https://github.com/mwouts/plotly_offline_export.git`)
+* clone this repo (`git clone --recurse-submodules https://github.com/mwouts/plotly_offline_export.git`)
 
 and then you will be able to export the plot to a PNG image.
 
