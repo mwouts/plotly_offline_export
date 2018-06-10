@@ -15,7 +15,7 @@ We start with an offline, interactive plot
 ```
 import plotly.graph_objs as go
 import plotly.offline as offline
-figure = {'data':[go.Scatter(x=range(5), y=[x**2 for x in range(5)])],
+figure = {'data':[go.Scatter(x=[x for x in range(5)], y=[x**2 for x in range(5)])],
           'layout':go.Layout(title='Sample plot')}
 offline.init_notebook_mode()
 offline.iplot(figure, show_link=False)
